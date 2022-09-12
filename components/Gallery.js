@@ -17,9 +17,9 @@ const pics = [
 
 const Gallery = () => {
   return (
-    <div className="bg-neutral-300 my-8 ">
+    <div className="bg-neutral-300 my-8 pb-10">
       <h3 className="text-5xl font-bold pl-36 py-10">Nos créations</h3>
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="flex flex-wrap justify-center gap-8">
         {pics.map((pic) => {
           return (
             <div key={pic.id}>
