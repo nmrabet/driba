@@ -1,7 +1,7 @@
 const contact = () => {
     return (
-        <div>
-            Enter
+        <div className="mx-auto">
+            Contact page
         </div>
     );
 }

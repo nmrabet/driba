@@ -1,9 +1,12 @@
+import Hero from "../components/Hero";
+import Main from "../components/Main";
 
 const index = () => {
   return (
-    <div>
-      Homepage
-    </div>
+    <>
+      <Hero />
+      <Main />
+    </>
   );
 };
 
