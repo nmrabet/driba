@@ -9,8 +9,8 @@ const Footer = () => {
       </div>
       <div>
         <p className="max-w-xl">
-          Une expérience, une invitation à l’expression, àl’imagination et à la
-          création. Une aventure artisanale et artistique. Une quête, tantôt
+          Une expérience, une invitation à l’expression, à l’imagination et à la
+          création.<br /> Une aventure artisanale et artistique. Une quête, tantôt
           poétique, tantôt mystique, toujours unique.
         </p>
       </div>
