@@ -17,12 +17,12 @@ const Footer = () => {
       <div>
         <ul className="flex space-x-4">
           <Link href="https://www.facebook.com/profile.php?id=100063329074821">
-            <a>
+            <a target="_blank" rel="noopener noreferrer">
               <BsFacebook />
             </a>
           </Link>
           <Link href="https://www.instagram.com/atelierdriba/?hl=fr">
-            <a>
+            <a target="_blank" rel="noopener noreferrer">
               <BsInstagram />
             </a>
           </Link>

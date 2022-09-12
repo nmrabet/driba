@@ -1,21 +1,25 @@
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
+  const router = useRouter();
+  const currentRoute = router.pathname;
+
   return (
     <header>
       <nav className="flex justify-center items-center space-x-32 mt-4">
         <div className="flex space-x-12">
           <Link href="/">
-            <a>Accueil</a>
+            <a className={currentRoute === "/" ? "active" : "non-active"}>Accueil</a>
           </Link>
           <Link href="/about">
-            <a>Notre histoire</a>
+            <a className={currentRoute === "/about" ? "active" : "non-active"}>Notre histoire</a>
           </Link>
         </div>
         <div>
           <Link href="/">
-            <a>
+            <a className={currentRoute === "/" ? "active" : "non-active"}>
               <Image
                 src="/logo-driba.svg"
                 alt="logo"
@@ -27,10 +31,10 @@ const Navbar = () => {
         </div>
         <div className="flex space-x-12">
           <Link href="/materials">
-            <a>Nos matériaux</a>
+            <a className={currentRoute === "/materials" ? "active" : "non-active"}>Nos matériaux</a>
           </Link>
           <Link href="/contact">
-            <a>Contact</a>
+            <a className={currentRoute === "/contact" ? "active" : "non-active"}>Contact</a>
           </Link>
         </div>
       </nav>
