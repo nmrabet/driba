@@ -1,12 +1,12 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-const notFound = () => {
-  const route = useRouter();
+const NotFound = () => {
+  const router = useRouter();
 
   useEffect(() => {
     setTimeout(() => {
-      route.push("/");
+      router.push("/");
     }, 2000);
   }, []);
 
@@ -17,4 +17,4 @@ const notFound = () => {
   );
 };
 
-export default notFound;
+export default NotFound;
