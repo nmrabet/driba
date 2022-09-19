@@ -6,7 +6,7 @@ const Main = () => {
     <div className="flex flex-col items-center lg:flex lg:flex-row lg:justify-center lg:items-center space-x-14 mx-auto my-8">
       <div className="">
         <Image
-          src="/images/atelier-driba.jpg"
+          src="/images/atelierceramique.jpg"
           alt="atelier driba"
           width={600}
           height={400}
@@ -14,8 +14,8 @@ const Main = () => {
         />
       </div>
       <div className="max-w-xl">
-        <h2 className="text-4xl font-bold">Notre histoire</h2>
-        <p className="py-4">
+        <h2 className="text-4xl font-bold pb-4">Notre histoire</h2>
+        <p>
           L&apos;artisanat est un secteur qui offre de multiples possibilités,
           Il regroupe des métiers de passion, de savoir-faire, de liberté,
           construire, créer, faire de la recherche et développer...

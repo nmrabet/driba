@@ -30,7 +30,7 @@ const Navbar = () => {
             </a>
           </Link>
           <div className="md:hidden">
-            <CgMenu size={42} />
+            <CgMenu size={42} className="cursor-pointer"/>
           </div>
         </div>
         <div className="hidden md:flex space-x-12">
