@@ -18,7 +18,7 @@ const pics = [
 const Gallery = () => {
   return (
     <div className="bg-neutral-300 my-8 pb-10">
-      <h3 className="text-5xl font-bold pl-36 py-10">Nos créations</h3>
+      <h3 className="text-center text-3xl lg:text-5xl lg:text-left font-bold lg:pl-36 py-10">Nos créations</h3>
       <div className="flex flex-wrap justify-center gap-8">
         {pics.map((pic) => {
           return (

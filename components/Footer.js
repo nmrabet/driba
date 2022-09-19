@@ -3,7 +3,7 @@ import { BsFacebook, BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-800 text-white py-24 flex justify-between px-14 items-center">
+    <div className="bg-gray-800 text-white py-24 space-y-6 lg:flex justify-between px-14 items-center">
       <div>
         <h2 className="text-3xl">L&apos;Atelier Driba</h2>
       </div>
@@ -18,12 +18,12 @@ const Footer = () => {
         <ul className="flex space-x-4">
           <Link href="https://www.facebook.com/profile.php?id=100063329074821">
             <a target="_blank" rel="noopener noreferrer">
-              <BsFacebook />
+              <BsFacebook size={20}/>
             </a>
           </Link>
           <Link href="https://www.instagram.com/atelierdriba/?hl=fr">
             <a target="_blank" rel="noopener noreferrer">
-              <BsInstagram />
+              <BsInstagram size={20}/>
             </a>
           </Link>
         </ul>

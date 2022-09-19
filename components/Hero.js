@@ -5,9 +5,9 @@ const Hero = () => {
   return (
     <>
       <div>
-        <div className="bg-white bg-opacity-75 absolute z-10 p-32 mt-32 w-3/6">
-          <h1 className="text-6xl">L’Atelier DRIBA</h1>
-          <p className="py-4 text-3xl">
+        <div className="hidden lg:block bg-white bg-opacity-75 absolute z-10 p-32 mt-32 w-3/6">
+          <h1 className="hidden lg:block lg:text-6xl">L’Atelier DRIBA</h1>
+          <p className="hidden lg:block py-4 text-3xl">
             Une expérience, une invitation à l’expression, à l’imagination et à
             la création.
           </p>

@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Main = () => {
   return (
-    <div className="flex justify-center items-center space-x-14 mx-auto my-8">
-      <div>
+    <div className="flex flex-col items-center lg:flex lg:flex-row lg:justify-center lg:items-center space-x-14 mx-auto my-8">
+      <div className="">
         <Image
           src="/images/atelier-driba.jpg"
           alt="atelier driba"
@@ -13,7 +13,7 @@ const Main = () => {
           className="rounded-xl"
         />
       </div>
-      <div className=" max-w-xl">
+      <div className="max-w-xl">
         <h2 className="text-4xl font-bold">Notre histoire</h2>
         <p className="py-4">
           L&apos;artisanat est un secteur qui offre de multiples possibilités,
