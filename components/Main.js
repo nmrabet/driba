@@ -4,7 +4,7 @@ import Link from "next/link";
 const Main = () => {
   return (
     <div className="flex flex-col items-center lg:flex lg:flex-row lg:justify-center lg:items-center space-x-14 mx-auto my-8">
-      <div className="">
+      <div className="mb-6">
         <Image
           src="/images/atelierceramique.jpg"
           alt="atelier driba"
