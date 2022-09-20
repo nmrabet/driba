@@ -3,16 +3,16 @@ import assiette from "../public/images/creations/atelier-assiette.jpg";
 import cadres from "../public/images/creations/atelier-cadres.jpg";
 import atelier from "../public/images/creations/atelier-driba.jpg";
 import poissons from "../public/images/creations/atelier-poisson.jpg";
-import boules from "../public/images/creations/boule.jpg";
-import driba from "../public/images/creations/driba.jpg";
+import halfa from "../public/images/creations/halfa-vase.jpg";
+import vase from "../public/images/creations/vase.jpg";
 
 const pics = [
   { id: 1, src: assiette, alt: "déco" },
   { id: 2, src: cadres, alt: "cadres" },
   { id: 3, src: atelier, alt: "atelier" },
   { id: 4, src: poissons, alt: "poisson" },
-  { id: 5, src: boules, alt: "boules" },
-  { id: 6, src: driba, alt: "driba" },
+  { id: 5, src: halfa, alt: "boules" },
+  { id: 6, src: vase, alt: "vase" },
 ];
 
 const Gallery = () => {
