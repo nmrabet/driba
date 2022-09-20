@@ -1,7 +1,7 @@
 import Image from "next/image";
 import assiette from "../public/images/creations/atelier-assiette.jpg";
 import cadres from "../public/images/creations/atelier-cadres.jpg";
-import jarre from "../public/images/creations/jarre.jpg";
+import Halfa from "../public/images/creations/Halfa.jpg";
 import poissons from "../public/images/creations/atelier-poisson.jpg";
 import halfa from "../public/images/creations/halfa-vase.jpg";
 import vase from "../public/images/creations/vase.jpg";
@@ -9,7 +9,7 @@ import vase from "../public/images/creations/vase.jpg";
 const pics = [
   { id: 1, src: assiette, alt: "déco" },
   { id: 2, src: cadres, alt: "cadres" },
-  { id: 3, src: jarre, alt: "jarre" },
+  { id: 3, src: Halfa, alt: "Halfa" },
   { id: 4, src: poissons, alt: "poisson" },
   { id: 5, src: halfa, alt: "boules" },
   { id: 6, src: vase, alt: "vase" },
