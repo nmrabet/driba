@@ -1,14 +1,13 @@
 import Head from "next/head";
 
-
 const DOMAIN = "https://www.atelierdriba.com";
 const DEFAULT_OG_IMAGE =
   "http://www.comptoirazur.fr/wp-content/uploads/2013/02/Atlier-Driba.jpg";
 
 export default function Seo({
   title = "Atelier Driba 93 ",
-  description = "Une aventure artisanale et artistique. Une quête, tantôt poétique, tantôt mystique, toujours unique.",
-  siteName = "Atelier Driba",
+  description = "Une quête, tantôt poétique, tantôt mystique, toujours unique. Une ode à la magie que chacun porte en lui. À travers nos oeuvres, nous proposons un méli-mélo de cultures et un voyage. À travers les cultures, les influences et les sens.",
+  siteName = "Une aventure artisanale et artistique",
   canonical = DOMAIN,
   ogImage = DEFAULT_OG_IMAGE,
   ogType = "website",
