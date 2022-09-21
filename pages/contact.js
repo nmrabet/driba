@@ -8,17 +8,16 @@ const contact = () => {
           nous appeler!
         </p>
       </div>
-      <div className='max-w-2xl mx-auto -mt-40'>
+      <div className="max-w-2xl mx-auto -mt-40">
         <form className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white dark:bg-blue-500">
-          <h1 className="text-2xl font-bold dark:text-gray-50">
-            Nous écrire
-          </h1>
+          <h1 className="text-2xl font-bold dark:text-gray-50">Nous écrire</h1>
 
           <label
             htmlFor="fullname"
             className="text-gray-500 font-light mt-8 dark:text-gray-50"
           >
-            Nom et Prénom <span className="text-red-500 dark:text-gray-50">*</span>
+            Nom et Prénom{" "}
+            <span className="text-red-500 dark:text-gray-50">*</span>
           </label>
           <input
             type="text"
