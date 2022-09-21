@@ -3,7 +3,7 @@ import { BsFacebook, BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-800 text-white py-24 space-y-6 lg:flex justify-between px-14 items-center">
+    <div className="bg-blue text-white py-24 space-y-6 lg:flex justify-between px-14 items-center">
       <div>
         <h2 className="text-3xl">L&apos;Atelier Driba</h2>
       </div>
