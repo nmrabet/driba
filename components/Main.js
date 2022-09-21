@@ -18,7 +18,9 @@ const Main = () => {
         <p>
           L&apos;artisanat est un secteur qui offre de multiples possibilités,
           Il regroupe des métiers de passion, de savoir-faire, de liberté,
-          construire, créer, faire de la recherche et développer. <br />
+          construire, créer, faire de la recherche et développer.
+        </p>
+        <p className="pt-3">
           AD 93 est un atelier de recherche, de formation et de création
           artistique et artisanale, spécialisé dans la reproduction d’objets du
           patrimoine outre la restauration, la décoration, la conception et
