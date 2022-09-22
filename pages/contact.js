@@ -16,7 +16,8 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          alert(result.text);
+          alert("message sent successfully...");
+          console.log(result.text);
         },
         (error) => {
           alert(error.text);
@@ -53,6 +54,7 @@ const Contact = () => {
             type="text"
             name="user_name"
             className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+            required
           />
 
           <label
@@ -65,6 +67,7 @@ const Contact = () => {
             type="email"
             name="user_email"
             className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+            required
           />
 
           <label
@@ -88,6 +91,7 @@ const Contact = () => {
           <textarea
             name="message"
             className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+            required
           ></textarea>
           <div className="flex flex-row items-center justify-start">
             <button
