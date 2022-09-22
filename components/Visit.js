@@ -1,6 +1,6 @@
 import Image from "next/image";
 import bois from "../public/images/bois.jpg";
-import basma from "../public/images/basma-atelier.jpg";
+import artisan from "../public/images/artisan.jpg";
 import atelierMarbre from "../public/images/Atelier-marbre.jpg";
 
 const Visit = () => {
@@ -10,7 +10,7 @@ const Visit = () => {
         <Image src={bois} alt="" width={600} height={714}/>
       </div>
       <div className="mx-16 my-4 flex flex-col gap-4 md:mx-0 md:my-0">
-        <Image src={basma} alt="" width={600} height={350}/>
+        <Image src={artisan} alt="" width={600} height={350}/>
         <Image src={atelierMarbre} alt="" width={600} height={350}/>
       </div>
     </div>

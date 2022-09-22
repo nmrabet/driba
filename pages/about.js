@@ -1,10 +1,10 @@
 import Image from "next/image";
 import mosaique from "../public/images/mosaiques.jpg";
 import marbre from "../public/images/marbredriba.jpg";
-import cadres from "../public/images/creations/atelier-cadres.jpg";
+import tortue from "../public/images/Marbre.jpg";
 import poisson from "../public/images/creations/atelier-poisson.jpg";
 import assiette from "../public/images/creations/atelier-assiette.jpg";
-import artisan from "../public/images/artisan.jpg";
+import basma from "../public/images/basma-atelier.jpg";
 
 const about = () => {
   return (
@@ -53,7 +53,7 @@ const about = () => {
           tous objets.
         </p>
         <div>
-          <Image src={cadres} alt="" width={1100} height={500} />
+          <Image src={tortue} alt="" width={1100} height={500} />
         </div>
         <p>
           Grâce à une équipe pluridisciplinaire, l’atelier Driba, qui dispose
@@ -119,7 +119,7 @@ const about = () => {
           interprétations contemporaines.
         </p>
         <div className="text-center px-3">
-          <Image src={artisan} alt="" />
+          <Image src={basma} alt="" />
         </div>
         <p>
           Mais l’activité de ce « créateur boulimique » comme beaucoup

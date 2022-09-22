@@ -53,7 +53,7 @@ const Contact = () => {
           <input
             type="text"
             name="user_name"
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-beige font-light text-gray-500"
             required
           />
 
@@ -66,7 +66,7 @@ const Contact = () => {
           <input
             type="email"
             name="user_email"
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-beige font-light text-gray-500"
             required
           />
 
@@ -79,7 +79,7 @@ const Contact = () => {
           <input
             type="text"
             name="subject"
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-beige font-light text-gray-500"
           />
 
           <label
@@ -90,14 +90,14 @@ const Contact = () => {
           </label>
           <textarea
             name="message"
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
+            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-beige font-light text-gray-500"
             required
           ></textarea>
           <div className="flex flex-row items-center justify-start">
             <button
               type="submit"
               value="Send"
-              className="px-10 mt-8 py-2 bg-[#130F49] text-white font-light rounded-md text-lg flex flex-row items-center"
+              className="px-10 mt-8 py-2 bg-blue text-white font-light rounded-md text-lg flex flex-row items-center"
             >
               Envoyer
               <svg
