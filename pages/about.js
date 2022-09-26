@@ -5,16 +5,17 @@ import tortue from "../public/images/Marbre.jpg";
 import poisson from "../public/images/creations/atelier-poisson.jpg";
 import assiette from "../public/images/creations/atelier-assiette.jpg";
 import basma from "../public/images/basma-atelier.jpg";
+import Link from "next/link";
 
 const about = () => {
   return (
     <>
-      <div className="flex justify-between items-center mx-32 my-6">
-        <div className="space-y-8">
+      <div className="flex justify-between items-center max-w-6xl mx-auto my-6">
+        <div className="space-y-6">
           <h1 className="text-4xl">L&apos;Atelier Driba</h1>
           <p>Contactez-nous ou venez visiter notre atelier</p>
-          <button className="border rounded-md border-gray-600 px-6 py-2">
-            Nous trouver
+          <button className="border rounded-md border-gray-600 px-6 py-2 hover:bg-blue hover:text-white">
+            <Link href="/contact">Nous trouver</Link>
           </button>
         </div>
         <div className="flex flex-row space-x-8">
@@ -101,7 +102,7 @@ const about = () => {
 
       <div className="my-14 mx-auto max-w-5xl space-y-8">
         <h2 className="text-5xl text-center">FONDATEUR DE L’ATELIER DRIBA</h2>
-        <h3 className='text-4xl text-center'>MOHAMED MESSAOUDI</h3>
+        <h3 className="text-4xl text-center">MOHAMED MESSAOUDI</h3>
         <p>
           Avant de devenir le designer que l’on connaît, Mohamed Messaoudi est
           avant tout un collectionneur, passionné d’art, d’histoire et

@@ -30,7 +30,7 @@ const Hero = () => {
           et artistique. Une quête, tantôt poétique, tantôt mystique, toujours
           unique.
         </p>
-        <button className="block mx-auto border border-black py-2 px-4">
+        <button className="block rounded-lg mx-auto border border-black py-2 px-4 hover:bg-blue hover:text-white">
           <Link href="/about">En savoir plus</Link>
         </button>
       </div>

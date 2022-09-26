@@ -122,15 +122,48 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="mx-auto max-w-4xl flex justify-between my-12">
+      <div className="mx-auto max-w-3xl flex justify-between my-4">
         <div>
           <p className="text-3xl uppercase font-bold">Où nous trouver</p>
+          <div className="my-6 space-y-4">
+            <h3 className="font-bold">Horaires:</h3>
+            <p>
+              Du lundi au vendredi
+              <br /> De 8h à 12h puis de 13h à 17h
+            </p>
+            <p>
+              Samedi <br />
+              De 8h à 12h
+            </p>
+            <span>Fermé le dimanche</span>
+          </div>
         </div>
-        <div>
-          <p>Adresse</p>
-          <p>Téléphone</p>
-          <p>Horaires</p>
-          <p>Email</p>
+        <div className="my-12 space-y-2">
+          <div>
+            <h3 className="font-bold">Adresse:</h3>
+            <p>
+              1 bis, rue Imam Abou Hanifa
+              <br /> 2070 Marsa Plage
+            </p>
+          </div>
+          <ul>
+            <h3 className="font-bold">Téléphone:</h3>
+            <li>
+              <a href="tel:+21670858250">+216 70 858 250</a>
+            </li>
+            <li>
+              <a href="tel:+21639106112">+216 39 106 112</a>
+            </li>
+            <li>
+              <a href="tel:+21627607947">+216 27 607 947</a>
+            </li>
+          </ul>
+          <div>
+            <h3 className="font-bold">Email:</h3>
+            <p>
+              <a href="mailto:galeriedriba@gmail.com">galeriedriba@gmail.com</a>
+            </p>
+          </div>
         </div>
       </div>
 
