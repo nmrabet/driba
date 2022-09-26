@@ -28,7 +28,7 @@ const Contact = () => {
   return (
     <>
       <div className="h-screen">
-        <div className="mx-auto rounded-xl w-5/6 h-2/5 bg-beige">
+        <div className="mb-6 md:mb-0 mx-auto rounded-xl w-5/6 h-2/5 bg-beige">
           <h3 className="text-3xl text-center py-4">Nous contacter</h3>
           <p className="mx-auto text-center w-1/2">
             Pour toutes demandes, n&apos;hésitez pas à nous envoyer un message
@@ -122,10 +122,12 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="mx-auto max-w-3xl flex justify-between my-4">
+      <h2 className="text-center lg:text-left lg:ml-[375px] text-3xl uppercase font-bold">
+        Où nous trouver
+      </h2>
+      <div className="mb-6 flex flex-col items-center mx-0 md:mx-14 md:max-w-3xl md:flex md:flex-row md:justify-between lg:mx-auto ">
         <div>
-          <p className="text-3xl uppercase font-bold">Où nous trouver</p>
-          <div className="my-6 space-y-4">
+          <div className="my-4 space-y-4">
             <h3 className="font-bold">Horaires:</h3>
             <p>
               Du lundi au vendredi
@@ -138,7 +140,8 @@ const Contact = () => {
             <span>Fermé le dimanche</span>
           </div>
         </div>
-        <div className="my-12 space-y-2">
+
+        <div className="-ml-2 md:-md-0 my-4 space-y-2">
           <div>
             <h3 className="font-bold">Adresse:</h3>
             <p>

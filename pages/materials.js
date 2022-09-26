@@ -13,17 +13,17 @@ const materials = () => {
       <div>
         <Image src={vase} alt="" width={1640} height={802} />
       </div>
-      <div className="flex justify-between items-center max-w-7xl mx-auto my-14">
-        <h2 className="text-4xl w-1/3">
+      <div className="mx-6 text-center space-y-6 lg:space-y-0 lg:flex lg:flex-row justify-between items-center lg:max-w-7xl lg:mx-auto my-14">
+        <h2 className="text-4xl lg:text-left lg:w-1/3">
           Panorama de l&apos;activité de l&apos;Atelier Driba
         </h2>
-        <p className="w-1/3 text-right text-lg">
+        <p className="text-center lg:w-1/3 lg:text-right text-lg">
           Nous réalisons toutes sortes de meubles et éléments de décoration
           personnalisés
         </p>
       </div>
 
-      <div className="mx-28 flex items-center space-x-12 my-8">
+      <div className="mx-4 flex flex-col justify-center lg:flex lg:flex-row items-center lg:space-x-12 my-8 lg:mx-auto lg:max-w-7xl">
         <div className="max-w-3xl space-y-6">
           <h2 className="text-4xl">Atelier de Céramique</h2>
           <p>
@@ -56,16 +56,16 @@ const materials = () => {
             présentent un aspect plus esthétique.
           </p>
         </div>
-        <div>
+        <div className="mt-6 lg:mt-0">
           <Image src={ceramique} alt="" />
         </div>
       </div>
 
-      <div className="mx-28 flex items-center space-x-12 my-8">
-        <div>
+      <div className="mt-12 mx-6 flex flex-col justify-center lg:flex lg:flex-row items-center lg:space-x-12 my-8 lg:mx-auto lg:max-w-7xl">
+        <div className="mt-6 lg:mt-0">
           <Image src={bois} alt="" />
         </div>
-        <div className="max-w-3xl space-y-6">
+        <div className="mt-6 lg:max-w-3xl space-y-6">
           <h2 className="text-4xl">Boiserie</h2>
           <p>
             Le bois dans tous ses états... massif, ajouré, tourné, sculpté ou
@@ -111,7 +111,7 @@ const materials = () => {
         </div>
       </div>
 
-      <div className="mx-28 flex items-center space-x-12 my-8">
+      <div className="mt-12 mx-6 flex flex-col justify-center lg:flex lg:flex-row items-center lg:space-x-12 my-8 lg:mx-auto lg:max-w-7xl">
         <div className="max-w-3xl space-y-6">
           <h2 className="text-4xl">Articles en Halfa</h2>
           <p>
@@ -169,17 +169,17 @@ const materials = () => {
             présentés lors de multiples expositions qui ont connu un vif succès.
           </p>
         </div>
-        <div>
+        <div className="mt-6 lg:mt-0">
           <Image src={halfa} alt="" />
           <Image src={Halfa} alt="" />
         </div>
       </div>
 
-      <div className="mx-28 flex items-center space-x-12 my-8">
-        <div>
+      <div className="mt-12 mx-6 flex flex-col justify-center lg:flex lg:flex-row items-center lg:space-x-12 my-8 lg:mx-auto lg:max-w-7xl">
+        <div className="mt-6 lg:mt-0">
           <Image src={artisan} alt="" />
         </div>
-        <div className="max-w-3xl space-y-6">
+        <div className="mt-6 max-w-3xl space-y-6">
           <h2 className="text-4xl">Atelier de ferronerie</h2>
           <p>
             Répliques d’ancien ou pièces design, nous réalisons du mobilier pour
@@ -189,7 +189,7 @@ const materials = () => {
         </div>
       </div>
 
-      <div className="mx-28 flex items-center space-x-12 my-8">
+      <div className="mt-12 mx-6 flex flex-col justify-center lg:flex lg:flex-row items-center lg:space-x-12 my-8 lg:mx-auto lg:max-w-7xl">
         <div className="max-w-3xl space-y-6">
           <h2 className="text-4xl">Atelier de peinture</h2>
           <p>
@@ -198,7 +198,7 @@ const materials = () => {
             divers : terre cuite, bois, fer, plâtre, etc.
           </p>
         </div>
-        <div>
+        <div className="mt-6 lg:mt-0">
           <Image src={peinture} alt="" />
         </div>
       </div>

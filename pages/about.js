@@ -10,15 +10,15 @@ import Link from "next/link";
 const about = () => {
   return (
     <>
-      <div className="flex justify-between items-center max-w-6xl mx-auto my-6">
-        <div className="space-y-6">
+      <div className="flex flex-col-reverse lg:flex lg:flex-row justify-between items-center max-w-6xl mx-auto my-6">
+        <div className="text-center md:text-left md:mx-6 space-y-6 mt-12">
           <h1 className="text-4xl">L&apos;Atelier Driba</h1>
           <p>Contactez-nous ou venez visiter notre atelier</p>
           <button className="border rounded-md border-gray-600 px-6 py-2 hover:bg-blue hover:text-white">
             <Link href="/contact">Nous trouver</Link>
           </button>
         </div>
-        <div className="flex flex-row space-x-8">
+        <div className="mx-4 md:mx-0 flex flex-row space-x-8">
           <div>
             <Image
               src={mosaique}
@@ -40,7 +40,7 @@ const about = () => {
         </div>
       </div>
 
-      <div className="my-14 mx-auto max-w-5xl space-y-8">
+      <div className="mx-4 my-14 md:mx-auto max-w-5xl space-y-8">
         <p>
           L&apos;artisanat est un secteur qui offre de multiples possibilités,
           Il regroupe des métiers de passion, de savoir-faire, de liberté,
@@ -100,7 +100,7 @@ const about = () => {
         <Image src={assiette} alt="" className="rounded-xl" />
       </div>
 
-      <div className="my-14 mx-auto max-w-5xl space-y-8">
+      <div className="my-14 mx-4 md:mx-auto max-w-5xl space-y-8">
         <h2 className="text-5xl text-center">FONDATEUR DE L’ATELIER DRIBA</h2>
         <h3 className="text-4xl text-center">MOHAMED MESSAOUDI</h3>
         <p>
